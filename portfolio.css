@@ -1,0 +1,150 @@
+*{
+    background-color: black;
+    color:white;
+}
+.container-fluid{
+    display:flex;
+}
+#left{
+    display: flex;
+    background-color: black;
+    width:70%;
+    height:100vh;
+    
+}
+#right{
+    background: linear-gradient(-45deg,blue,#262525);
+    width:30%;
+    height:100vh;
+
+   
+    position:relative;
+
+}
+#content{
+    background-color:black;
+    color:blue;
+    margin-left:50px;
+    padding-top: 30px;
+}
+h3{
+    background-color: rgb(45, 45, 59);
+   
+}
+#icon{
+    background-color: rgb(45, 45, 59);
+}
+#p1{
+    width:400px;
+    height:200px;
+    background-color: rgb(45, 45, 59);
+
+}
+#b1{
+    background-color: blue;
+    color: black;
+    
+}
+#b2{
+    border:2px solid blue;
+    background-color: black;
+    
+}
+.thumbnail{
+    height:400px;
+    width:400px;
+    border:transparent;
+    box-shadow: 0px 0px 15px 15px white,
+    inset 0px 0px 15px 15px white;
+    
+}
+img{
+    height:450px;
+    width:450px;
+   margin-top:300px;
+    transform: translate(-50%,-50%);
+    background-color: (57, 57, 108);
+    border:10px solid transparent;
+     
+    z-index: 2;
+    position: absolute;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-start;
+    height:100px
+    
+}
+.row{
+    display: flex;
+    justify-content: center;
+    width:70%;
+    padding:30px;
+    position:fixed;
+}
+.col{
+   
+    line-height: .5px;
+   
+    
+}
+.link{
+    color:white;
+    text-decoration: none;
+    
+    
+}
+.link:active{
+    color:grey;
+}
+.link:hover{
+    text-decoration: underline;
+    line-height: .5px;
+}
+.cont4{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:500px;
+    background-color:black;
+}
+.row4{
+    display:flex;
+    width:95%;
+    height:450px;
+    background-color: black;
+    box-shadow: 0px 0px 15px 15px blue;
+    
+    
+    }
+.col-4{
+    text-align: center;
+   margin:2px;
+     padding:20px;
+    border:2px dotted blue;
+    background-color:black;
+    color:blue;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+}
+.button{
+    background-color: black;
+    border:2px solid blue;
+    color:blue;
+    margin-left:80px;
+    
+}
+.button1{
+    background-color: black;
+    border:2px solid blue;
+    color:blue;
+    
+}
+label{
+    border:2px dotted blue;
+}
+#intro1{
+    visibility: hidden;
+}
